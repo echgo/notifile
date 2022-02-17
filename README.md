@@ -4,6 +4,14 @@
 
 With this library you can easily create notification files for your Go projects. These must then be stored in the directory you specify so that echGo can read them.
 
+## Install
+
+```console
+go get github.com/echgo/notifile
+```
+
+## How to use?
+
 You can use the following example to create a file. Please note that there are currently only the following notification channels: **gotify, matrix, telegram, smtp  & webhook**.
 
 ```go
