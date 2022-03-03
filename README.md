@@ -15,13 +15,13 @@ go get github.com/echgo/notifile
 You can use the following example to create a file. Please note that there are currently only the following notification channels: **gotify, matrix, telegram, smtp  & webhook**.
 
 ```go
-data := Data{
+data := notifile.Data{
     Channel:  []string{"gotify", "telegram"},
     Headline: "New notification!",
     Message:  "Here you will find your message.",
 }
 
-err := Create(data, "/var/lib/echgo/notification")
+err := notifile.Create(data, "/var/lib/echgo/notification")
 if err != nil {
     log.Fatalln(err)
 }
