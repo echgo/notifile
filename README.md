@@ -12,7 +12,7 @@ go get github.com/echgo/notifile
 
 ## How to use?
 
-You can use the following example to create a file. Please note that there are currently only the following notification channels: **gotify, matrix, telegram, smtp  & webhook**.
+You can use the following example to create a file. Please note that there are currently only the following notification channels: **gotify, matrix, telegram, trello, smtp  & webhook**.
 
 ```go
 data := notifile.Data{
