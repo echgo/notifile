@@ -16,7 +16,7 @@ You can use the following example to create a file. Please note that there are c
 
 ```go
 data := notifile.Data{
-    Channel:  []string{"gotify", "telegram"},
+    Channels:  []string{"gotify", "telegram"},
     Headline: "New notification!",
     Message:  "Here you will find your message.",
 }
