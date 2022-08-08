@@ -26,3 +26,7 @@ if err != nil {
     log.Fatalln(err)
 }
 ```
+
+## Special thanks
+
+Thanks to [JetBrains](https://github.com/JetBrains) for supporting me with this and other [open source projects](https://www.jetbrains.com/community/opensource/#support).
