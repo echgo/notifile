@@ -14,7 +14,7 @@ import (
 	"time"
 )
 
-// Set prefix, extension is to build the filename.
+// Set prefix, char, extension is to build the filename.
 const (
 	prefix    = "notifile-"
 	char      = "abcdefghijklmnopqrstuvwxyz1234567890"
